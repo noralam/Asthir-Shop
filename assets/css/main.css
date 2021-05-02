@@ -1,0 +1,185 @@
+body{
+    font-family: 'Oxygen', sans-serif;
+    font-size:16px;
+    font-weight: 400;
+}
+
+a,
+a:hover {
+    text-decoration: underline !important;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    letter-spacing: inherit;
+}
+.widget form {
+    width: 100%;
+}
+
+.bsgrid-item .bshop-single-list{
+    -webkit-box-shadow: 0 0 70px rgb(0 0 0 / 11%);
+    box-shadow: 0 0 70px rgb(0 0 0 / 11%);
+    background: #fff;
+    margin-bottom:15px;
+}
+.bs-grid .bshop-single-list header.entry-header {
+    padding: 20px 10px 0;
+}
+
+.bs-grid .bshop-single-list header.entry-header h2 {
+    font-size: 24px;
+}
+.bsgrid-item .bshop-single-list .entry-content {
+    padding: 20px;
+    margin-top: 0;
+}
+.asthir-shop-col {
+    position: inherit !important;
+}
+
+.asthir-widget2 .asthir-sticky, 
+.asthir-widget2 .asthir-scat,
+.asthir-widget2 h3.widget-title,
+.asthir-widget2 h2.widget-title {
+    font-size: 13px;
+    background: inherit;
+    padding: 5px 5px 10px;
+    color: #000;
+    border-radius: 5px;
+    transform: rotate(0);
+    position: inherit;
+    min-width: 50px;
+    width: 100%;
+    height: 25px;
+    margin: 0 auto;
+    display: block;
+}
+
+.asthir-scat {
+    position: inherit;
+    background: inherit;
+}
+
+.asthir-widget2 .bsgrid-item .asthir-scat a {
+    color: #555;
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.bs-grid img {
+    min-height: 150px;
+    transition: 0.5s;
+}
+.bs-grid img:hover {
+    transform: scale(1.1);
+}
+.asthir-scat a:hover, .asthir-scat a:visited {
+    color: #ededed;
+}
+.bs-grid a.post-thumbnail {
+    display: block;
+    overflow: hidden;
+}
+nav.navigation.pagination .nav-links a, nav.navigation.pagination .nav-links span {
+    border: 1px solid #ededed;
+    padding: 5px 10px;
+    margin: 10px 2px;
+}
+nav.navigation.pagination .nav-links a:hover,
+ nav.navigation.pagination .nav-links span:hover {
+    background: #ededed;
+}
+nav.navigation.pagination {
+    display: block;
+    text-align: center;
+    padding: 20px 0;
+}
+.asthir-widgets2 section.widget {
+    margin-bottom: 40px;
+}
+.asthir-header .asthir-nav-logo .site-title a {
+    font-size: 28px;
+    color: #fff;
+}
+.asthir-header .asthir-nav-logo .site-description {
+    padding: 0;
+    margin: 0 0 5px 0;
+    font-size: 16px;
+}
+.asthir-header .asthir-nav-logo .site-title {
+    margin-bottom: 0;
+}
+.asthir-nav-logo .row {
+    align-items: baseline;
+}
+section.widget {
+    position: relative;
+    display: block;
+    min-height: inherit;
+}
+.woocommerce ul.products li.product, 
+.woocommerce-page ul.products li.product {
+    border-radius: 3px;
+}
+.woocommerce ul.products li.product a img {
+    border: 0;
+    border-radius: 0;
+    transform: scale(1);
+    overflow: hidden;
+    transition: 0.5s;
+}
+.woocommerce ul.products li.product a img:hover {
+    transform: scale(0.98);
+}
+
+.entry-footer,
+.entry-footer a {
+    background: #fff;
+}
+.entry-footer {
+    border: 1px solid #ededed;
+}
+
+@media screen and (max-width: 992px) {
+    .asthir-nav-logo {
+        position: relative;
+    }
+    
+    .asthir-shop-col {
+        position: inherit;
+    }
+    
+    nav#site-navigation {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    
+    .menu-main-menu-container {
+        background: #555;
+        z-index: 9999;
+        position: absolute;
+        right: 0;
+        top: 50px;
+        text-align: left;
+    }
+}
+
+@media (max-width: 767px){
+
+    .asthir-nav-logo .menu-main-menu-container {
+        text-align: left;
+    }
+    .asthir-nav-logo .main-navigation.text-right {
+        text-align: center !important;
+    }
+
+    .asthir-nav-logo .asthir-logotext.asthir-menulogo {
+        text-align: center !important;
+        margin-bottom: 10px;
+    }
+
+
+}
+
